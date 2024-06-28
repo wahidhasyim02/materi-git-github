@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./**/*.{html,js}"],
+  important: true,
   theme: {
     extend: {
       fontFamily: {
@@ -8,9 +9,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-light":
-          "url('https://wahidhasyim02.github.io/public/img/bg_light.jpg')",
+          "url('https://github.com/wahidhasyim02/materi-git-github/blob/main/public/img/bg-light.jpg')",
         "hero-dark":
-          "url('https://wahidhasyim02.github.io/public/img/bg_dark.jpg')",
+          "url('https://github.com/wahidhasyim02/materi-git-github/blob/main/public/img/bg-dark.jpg')",
       },
     },
   },
