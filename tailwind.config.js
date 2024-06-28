@@ -9,9 +9,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-light":
-          "url('https://raw.githubusercontent.com/wahidhasyim02/materi-git-github/main/public/img/bg-light.jpg')",
+          "url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-light.jpg')",
         "hero-dark":
-          "url('https://raw.githubusercontent.com/wahidhasyim02/materi-git-github/main/public/img/bg-dark.jpg')",
+          "url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-dark.jpg')",
       },
     },
   },

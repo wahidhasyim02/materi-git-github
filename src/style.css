@@ -1803,7 +1803,7 @@ video {
 }
 
 .bg-hero-light {
-  background-image: url('https://github.com/wahidhasyim02/materi-git-github/blob/main/public/img/bg-light.jpg') !important;
+  background-image: url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-light.jpg') !important;
 }
 
 .decoration-slice {
@@ -2499,7 +2499,7 @@ video {
   }
 
   .dark\:bg-hero-dark {
-    background-image: url('https://github.com/wahidhasyim02/materi-git-github/blob/main/public/img/bg-dark.jpg') !important;
+    background-image: url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-dark.jpg') !important;
   }
 
   @media (min-width: 1024px) {
