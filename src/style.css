@@ -663,6 +663,14 @@ video {
   inset-inline-end: 0.25rem !important;
 }
 
+.left-1\/2 {
+  left: 50% !important;
+}
+
+.top-\[10\%\] {
+  top: 10% !important;
+}
+
 .isolate {
   isolation: isolate !important;
 }
@@ -818,8 +826,36 @@ video {
   display: none !important;
 }
 
+.h-\[768px\] {
+  height: 768px !important;
+}
+
+.h-\[80\%\] {
+  height: 80% !important;
+}
+
 .h-full {
   height: 100% !important;
+}
+
+.w-\[1366px\] {
+  width: 1366px !important;
+}
+
+.w-\[35\%\] {
+  width: 35% !important;
+}
+
+.w-\[5\%\] {
+  width: 5% !important;
+}
+
+.w-\[60\%\] {
+  width: 60% !important;
+}
+
+.w-\[80\%\] {
+  width: 80% !important;
 }
 
 .w-\[this-is\\\\\] {
@@ -832,6 +868,10 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid !important;
+}
+
+.w-full {
+  width: 100% !important;
 }
 
 .flex-shrink {
@@ -872,6 +912,11 @@ video {
 
 .border-separate {
   border-collapse: separate !important;
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50% !important;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
 .\!transform {
@@ -1792,18 +1837,24 @@ video {
   border-style: none !important;
 }
 
+.border-slate-100 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(241 245 249 / var(--tw-border-opacity)) !important;
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-gray-50 {
+.bg-sky-600 {
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(2 132 199 / var(--tw-bg-opacity)) !important;
 }
 
-.bg-hero-light {
-  background-image: url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-light.jpg') !important;
+.bg-white {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
 .decoration-slice {
@@ -1920,6 +1971,21 @@ video {
      object-fit: scale-down !important;
 }
 
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.py-3 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.py-\[2px\] {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
 .text-left {
   text-align: left !important;
 }
@@ -1974,6 +2040,11 @@ video {
 
 .align-super {
   vertical-align: super !important;
+}
+
+.text-base {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
 }
 
 .font-bold {
@@ -2057,9 +2128,14 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity)) !important;
 }
 
-.text-white {
+.text-slate-100 {
   --tw-text-opacity: 1 !important;
-  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+  color: rgb(241 245 249 / var(--tw-text-opacity)) !important;
+}
+
+.text-slate-800 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(30 41 59 / var(--tw-text-opacity)) !important;
 }
 
 .underline {
@@ -2493,13 +2569,28 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:bg-gray-900 {
+  .dark\:border-slate-700 {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(51 65 85 / var(--tw-border-opacity)) !important;
+  }
+
+  .dark\:bg-slate-800 {
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+  }
+
+  .dark\:bg-slate-900 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
   }
 
   .dark\:bg-hero-dark {
     background-image: url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-dark.jpg') !important;
+  }
+
+  .dark\:text-slate-200 {
+    --tw-text-opacity: 1 !important;
+    color: rgb(226 232 240 / var(--tw-text-opacity)) !important;
   }
 
   @media (min-width: 1024px) {
