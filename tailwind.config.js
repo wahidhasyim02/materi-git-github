@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         inter: "Inter",
       },
+
       backgroundImage: {
         "hero-light":
           "url('https://wahidhasyim02.github.io/materi-git-github/public/img/bg-light.jpg')",
